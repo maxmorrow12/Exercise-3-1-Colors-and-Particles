@@ -1,12 +1,22 @@
-[gd_scene load_steps=2 format=3 uid="uid://bgdgq5dqlotfp"]
+[gd_scene load_steps=5 format=3 uid="uid://bgdgq5dqlotfp"]
 
 [ext_resource type="Script" path="res://UI/Main_Menu.gd" id="1"]
+[ext_resource type="Theme" uid="uid://bve7ssbni44q8" path="res://UI/UI.tres" id="1_oqwxs"]
+[ext_resource type="FontFile" uid="uid://buqxw2emammyq" path="res://Assets/Orbitron/Orbitron-VariableFont_wght.ttf" id="3_yhs8b"]
+
+[sub_resource type="Theme" id="Theme_l8h6d"]
+default_font = ExtResource("3_yhs8b")
+default_font_size = 22
+Button/styles/normal = null
 
 [node name="Main_Menu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_oqwxs")
 script = ExtResource("1")
 
 [node name="Background" type="ColorRect" parent="."]
@@ -34,6 +44,7 @@ offset_left = -100.0
 offset_top = -20.0
 offset_right = 100.0
 offset_bottom = 20.0
+theme = SubResource("Theme_l8h6d")
 text = "Play"
 
 [node name="Quit" type="Button" parent="."]
