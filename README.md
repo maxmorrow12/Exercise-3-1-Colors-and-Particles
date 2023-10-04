@@ -1,9 +1,9 @@
 
-# Exercise 3.1—Colors-and-Particles
+# Exercise 3.1—Tweening and Screen Shake
 
 Exercise for MSCH-C220
 
-The first steps in adding "juicy" features to a simple brick-breaker game.
+
 
 ## To play
 
@@ -24,9 +24,9 @@ Created using [Godot 4.1.1](https://godotengine.org/download)
 
 ## Future Development
 
-Tweening, Screen Shake, Adding a face, Comet trail, Music and Sound, Shaders, etc.
+ Adding a face, Comet trail, Music and Sound, Shaders, etc.
 
 ## Created by 
 
 Max Morrow
-```
+
