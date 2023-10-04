@@ -14,6 +14,8 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_a67r2")
 script = ExtResource("1")
+indicator_margin = null
+indicator_index = null
 
 [node name="Background" type="ColorRect" parent="."]
 layout_mode = 0

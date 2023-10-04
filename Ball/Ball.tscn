@@ -19,11 +19,13 @@ script = ExtResource("1")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("1")
 
-[node name="Ball" type="Sprite2D" parent="."]
-texture = ExtResource("2_6ks65")
+[node name="Images" type="Node2D" parent="."]
 
-[node name="Highlight" type="Sprite2D" parent="."]
+[node name="Highlight" type="Sprite2D" parent="Images"]
 modulate = Color(1, 1, 1, 0)
 texture = ExtResource("3_ipje4")
+
+[node name="Ball" type="Sprite2D" parent="Images"]
+texture = ExtResource("2_6ks65")
 
 [connection signal="body_entered" from="." to="." method="_on_Ball_body_entered"]
